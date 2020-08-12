@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-strapi-blog",
+  "version": "1.0.0",
+  "description": "Blog boilerplate using NextJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextJs",
+    "React",
+    "markdown",
+    "strapi",
+    "disqus"
+  ],
+  "author": "Jashn Maloo",
+  "license": "ISC",
+  "dependencies": {
+    "@theme-ui/presets": "^0.3.0",
+    "disqus-react": "^1.0.9",
+    "next": "^9.5.2",
+    "next-seo": "^4.7.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "dotenv-load": "^2.0.0",
+    "next-env": "^1.1.1"
+  }
+}
