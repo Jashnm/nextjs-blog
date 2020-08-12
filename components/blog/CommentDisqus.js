@@ -7,9 +7,9 @@ const CommentDisqus = ({ post }) => {
   return (
     <Box sx={{ width: ["94%", "96%"], my: "2rem", mx: "auto" }}>
       <DiscussionEmbed
-        shortname={process.env.DISQUS_NAME}
+        shortname="yourdisqusshortname"
         config={{
-          url: `${process.env.PAGEURL}/blog/${post.slug}`,
+          url: `https://yourpageURL.domain/blog/${post.slug}`,
           identifier: post.id,
           title: post.title,
         }}
